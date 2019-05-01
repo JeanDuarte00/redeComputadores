@@ -1,5 +1,6 @@
 package com.codai.snakeGame;
 
+import com.codai.connection.Client;
 import com.codai.utils.AudioPlayer;
 import com.codai.utils.TAdapter;
 import java.awt.Color;
@@ -11,6 +12,7 @@ import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -20,6 +22,8 @@ public class Board extends JPanel implements ActionListener {
     String baseUrl = "C:\\Users\\jean_\\IdeaProjects";
 
     AudioPlayer audioPlayer = new AudioPlayer();
+
+    Client cliente = null;
 
     private final int B_WIDTH = 400;
     private final int B_HEIGHT = 400;
@@ -51,8 +55,11 @@ public class Board extends JPanel implements ActionListener {
     private TAdapter keys = new TAdapter(rightDirection, leftDirection, upDirection, downDirection, enterKey);
 
 
-    public Board() {
+    public Board(Client cliente) {
 
+        if (this.cliente == null){
+            this.cliente = cliente;
+        }
         initBoard();
     }
 
@@ -209,20 +216,25 @@ public class Board extends JPanel implements ActionListener {
             y[z] = y[(z - 1)];
         }
 
+
         if (keys.isLeftDirection()) {
             x[0] -= DOT_SIZE;
+            this.cliente.eventEmitter( KeyEvent.VK_LEFT );
         }
 
         if (keys.isRightDirection()) {
             x[0] += DOT_SIZE;
+            this.cliente.eventEmitter( KeyEvent.VK_RIGHT );
         }
 
         if (keys.isUpDirection()) {
             y[0] -= DOT_SIZE;
+            this.cliente.eventEmitter( KeyEvent.VK_UP );
         }
 
         if (keys.isDownDirection()) {
             y[0] += DOT_SIZE;
+            this.cliente.eventEmitter( KeyEvent.VK_DOWN );
         }
     }
 

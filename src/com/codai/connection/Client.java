@@ -4,6 +4,7 @@ import com.codai.snakeGame.Board;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.Socket;
@@ -27,7 +28,7 @@ public class Client extends JFrame {
 
         initCliente();
         initUI();
-        initComponents();
+        //initComponents();
 
 
     }
@@ -35,7 +36,7 @@ public class Client extends JFrame {
 
     private void initUI() {
 
-        add(new Board());
+        add(new Board(this));
 
         setResizable(false);
         //pack();
@@ -103,14 +104,23 @@ public class Client extends JFrame {
         pack();
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jButton1ActionPerformed(ActionEvent evt) {
         try {
             PrintStream saida = new PrintStream(cliente.getOutputStream());
             saida.println(jTextArea1.getText());
             jTextArea1.grabFocus();
             jTextArea1.setText("");
-        } catch (IOException ex) {
-            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+        } catch ( IOException error ) {
+            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, error);
+        }
+    }
+
+    public void eventEmitter (int key) {
+        try {
+            PrintStream saida = new PrintStream(cliente.getOutputStream());
+            saida.println(key);
+        } catch ( IOException error ) {
+            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, error);
         }
     }
 

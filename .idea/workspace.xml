@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5360fa5-d4a2-4da2-9f65-824db03af3d0" name="Default Changelist" comment="" />
+    <list default="true" id="f5360fa5-d4a2-4da2-9f65-824db03af3d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sockets/com/codai/connection/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sockets/com/codai/connection/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codai/connection/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codai/connection/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codai/snakeGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codai/snakeGame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codai/utils/TAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codai/utils/TAdapter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codai/snakeGame/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="663">
+              <caret line="249" column="31" lean-forward="true" selection-start-line="249" selection-start-column="31" selection-end-line="249" selection-end-column="31" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#loadImages#0;class#Board#0" />
                 <element signature="method#paintComponent#0;class#Board#0" />
                 <element signature="method#doDrawing#0;class#Board#0" />
@@ -54,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codai/utils/AudioPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="221">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#924#925#0" expanded="true" />
@@ -74,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codai/utils/TAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="130">
+              <caret line="66" column="29" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,14 +91,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codai/connection/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#initUI#0;class#Client#0" />
+                <element signature="method#initComponents#0;class#Client#0" />
               </folding>
             </state>
           </provider>
@@ -110,6 +118,9 @@
       <find>cliente</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,10 +131,10 @@
         <option value="$PROJECT_DIR$/src/com/codai/conection/Server.java" />
         <option value="$PROJECT_DIR$/src/com/codai/Server.java" />
         <option value="$PROJECT_DIR$/src/com/codai/connection/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/codai/utils/TAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/codai/utils/AudioPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/codai/snakeGame/Board.java" />
+        <option value="$PROJECT_DIR$/src/com/codai/utils/TAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/codai/connection/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/codai/snakeGame/Board.java" />
       </list>
     </option>
   </component>
@@ -133,6 +144,7 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -184,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556681782387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556684385005" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -289,7 +301,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25716442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,20 +347,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codai/utils/TAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codai/connection/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="417" column="21" selection-start-line="417" selection-start-column="21" selection-end-line="417" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codai/utils/AudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
@@ -364,11 +382,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codai/connection/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initComponents#0;class#Client#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codai/utils/TAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codai/snakeGame/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="663">
+          <caret line="249" column="31" lean-forward="true" selection-start-line="249" selection-start-column="31" selection-end-line="249" selection-end-column="31" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#loadImages#0;class#Board#0" />
             <element signature="method#paintComponent#0;class#Board#0" />
             <element signature="method#doDrawing#0;class#Board#0" />
@@ -378,27 +418,6 @@
             <element signature="method#swapColors#0;class#Board#0" />
             <element signature="method#putAppleOn#0;class#Board#0" />
             <element signature="method#restartGame#0;class#Board#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codai/connection/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codai/connection/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initUI#0;class#Client#0" />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 public class TAdapter extends KeyAdapter {
 
 
+    private TAdapter tAdapter;
     private boolean rightDirection = true;
     private boolean leftDirection = false;
     private boolean upDirection = false;
@@ -47,6 +48,7 @@ public class TAdapter extends KeyAdapter {
     public void setDownDirection(boolean downDirection) {
         this.downDirection = downDirection;
     }
+
 
     public TAdapter (boolean right, boolean left, boolean up, boolean down, boolean enter) {
 
